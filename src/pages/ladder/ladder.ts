@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { NavController, reorderArray } from 'ionic-angular';
+import { IonicPage, NavController, reorderArray } from 'ionic-angular';
 
+@IonicPage()
 @Component({
   selector: 'page-ladder',
   templateUrl: 'ladder.html'
 })
-export class LadderPage {
+export class Ladder {
 
 	ladder: any;
 

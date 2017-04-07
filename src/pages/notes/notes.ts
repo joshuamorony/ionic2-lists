@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { NavController, AlertController } from 'ionic-angular';
+import { IonicPage, NavController, AlertController } from 'ionic-angular';
 
+@IonicPage()
 @Component({
   selector: 'page-notes',
   templateUrl: 'notes.html'
 })
-export class NotesPage {
+export class Notes {
 
 	notes: any = [];
 
