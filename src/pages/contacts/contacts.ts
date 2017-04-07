@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { IonicPage, NavController } from 'ionic-angular';
 
+@IonicPage()
 @Component({
   selector: 'page-contacts',
   templateUrl: 'contacts.html'
 })
-export class ContactsPage {
+export class Contacts {
 
 	contacts;
 	groupedContacts = [];

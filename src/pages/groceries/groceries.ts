@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { IonicPage, NavController } from 'ionic-angular';
 
+@IonicPage()
 @Component({
   selector: 'page-groceries',
   templateUrl: 'groceries.html'
 })
-export class GroceriesPage {
+export class Groceries {
 
 	groceries: any;
 
